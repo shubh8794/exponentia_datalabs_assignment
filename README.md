@@ -1,12 +1,12 @@
 # Exponentia datalabs assignment
 
-Salary prediction problem:
+**Salary prediction problem:**
 
 We have training data having salary information as categories such as 0to3, 3to6, 6to10 and so on. we have parameters like job experience, job designation, job skills, job summary, job location and company code. 
 
 In order to predict salary of test data we need initial analysis and data cleaning of training data:
 
-Data cleaning includes:
+**Data cleaning includes:**
 1. Drop duplicate values
 2. Handle missing values
 3. Remove outliers
@@ -14,7 +14,7 @@ Data cleaning includes:
 
 After this, I converted experience and salary to a fixed number so that it would be helpful in the analysis.
 
-Steps to build model and re-classification of categories:
+**Steps to build model and re-classification of categories:**
 
 1. Calculate mean salary
 2. Create bag of words sparse matrix of the location, skills, designation and summary.
